@@ -2,8 +2,6 @@
 
 A Python workflow that links the reservoir, the wellbore and the simulator, starting with a nodal analysis engine (PVT, IPR, VLP) that reads its fluid straight from a simulation deck and is benchmarked / validated against PROSPER.
 
-![Why a well stops flowing](images/nodal_surface_orbit.gif)
-
 ## Background
 
 Nodal analysis shows where the reservoir (IPR) meets the tubing (VLP). Most of us run it in commercial software like PROSPER. This series asks: can the same logic be rebuilt in Python, with the fluid taken from the same deck the simulator uses, and still match PROSPER?
