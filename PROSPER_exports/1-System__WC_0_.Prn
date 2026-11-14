@@ -1,0 +1,133 @@
+Report Produced on 08-11-2026 - 15:44:48 - File : D:\Project 2026\Pytho_Integ_Modeling\Validation_Part.Out
+
+
+                 ..............................................
+                 .  SYSTEM SENSITIVITY ANALYSIS - Input Data  .
+                 ..............................................
+
+Top Node Pressure	57.80	(psig)
+Water Cut	0	(percent)
+Total GOR	160.30	(scf/STB)
+Surface Equipment Correlation	Hydro-2P
+Vertical Lift Correlation	Beggs and Brill
+Solution Node	Bottom Node
+Rate Method	Automatic - Linear
+Left-Hand Intersection	DisAllow
+PE5 Stability Flag	No
+
+                  ###########################################
+                  #  SYSTEM SENSITIVITY ANALYSIS - Results  #
+                  ###########################################
+
+
+
+
+     	     	     	      	     	     	  dP	      	    	      	      	   	     	      	    First	     	    	  Total	  Maximum	 Maximum	  Maximum	          	          	    PE5	 Erosional	
+  Liquid	    Oil	   Water	     Gas	   VLP	   IPR	 Total	     dP	   dP	     dP	 Completion	 Total	 WellHead	  WellHead	    Node	    dP	   dP	  NoSlip	 Erosional	    C	   Grain	       Erosion	      Corrosion	 Stability	 Velocity	
+   Rate	   Rate	   Rate	    Rate	 Pressure	 Pressure	 Skin	 Perforation	 Damage	 Completion	    Skin	 Skin	 Pressure	 Temperature	 Temperature	 Friction	 Gravity	 Velocity	 Velocity	  Factor	 Diameter	        Rate	        Rate	   Flag	   Flag	
+ (STB/day)	 (STB/day)	 (STB/day)	 (MMscf/day)	  (psig)	  (psig)	 (psi)	    (psi)	 (psi)	   (psi)	      	   	  (psig)	   (deg F)	   (deg F)	  (psi)	  (psi)	 (ft/sec)	 (ft/sec)	     	 (inches)	 (0.001 inches/year)	 (0.001 inches/year)	     	     	
+ _________	 _________	 _________	 ___________	 ________	 ________	 _____	 ___________	 ______	 __________	 __________	 _____	 ________	 ___________	 ___________	 ________	 _______	 ________	 _________	 ________	 _________	 ___________________	 ___________________	 _________	 _________	
+ 6.4	 6.4	 0	 0.0010285	 3357.80	 3463.04	 0	 0	 0	 0	 0	 0	 57.80	 80.06	 80.06	 0.018758	 3299.98	 0.02093	 109.187	 0.076677	 0.0020529	 	 	 	 No	
+ 343.5	 343.5	 0	 0.055063	 3333.78	 3307.71	 0	 0	 0	 0	 0	 0	 57.80	 83.00	 83.00	 1.09	 3274.88	 1.163	 111.229	 4.18185	 0.013771	 	 	 	 No	
+ 680.6	 680.6	 0	 0.1091	 3230.56	 3152.37	 0	 0	 0	 0	 0	 0	 57.80	 85.95	 85.95	 3.18	 3169.55	 2.643	 119.137	 8.87466	 0.020972	 	 	 	 No	
+ 1017.7	 1017.7	 0	 0.16313	 3011.25	 2997.03	 0	 0	 0	 0	 0	 0	 57.80	 88.90	 88.90	 7.01	 2946.38	 4.340	 124.843	 13.9057	 0.027319	 	 	 	 No	
+ 1354.7	 1354.7	 0	 0.21717	 2940.73	 2841.69	 0	 0	 0	 0	 0	 0	 57.80	 91.84	 91.84	 12.61	 2870.22	 5.822	 125.318	 18.5822	 0.034032	 	 	 	 No	
+ 1691.8	 1691.8	 0	 0.2712	 2929.05	 2686.36	 0	 0	 0	 0	 0	 0	 57.80	 94.75	 94.75	 18.43	 2852.67	 7.311	 125.672	 23.2712	 0.040989	 	 	 	 No	
+ 2028.9	 2028.9	 0	 0.32523	 2921.88	 2531.02	 0	 0	 0	 0	 0	 0	 57.80	 97.62	 97.62	 25.05	 2838.80	 8.804	 125.929	 27.9649	 0.048313	 	 	 	 No	
+ 2366.0	 2366.0	 0	 0.37927	 2918.08	 2375.68	 0	 0	 0	 0	 0	 0	 57.80	 100.41	 100.41	 32.40	 2827.58	 10.297	 126.112	 32.6585	 0.056003	 	 	 	 No	
+ 2703.1	 2703.1	 0	 0.4333	 2916.99	 2220.35	 0	 0	 0	 0	 0	 0	 57.80	 103.10	 103.10	 40.41	 2818.39	 11.790	 126.254	 37.3533	 0.064058	 	 	 	 No	
+ 3040.2	 3040.2	 0	 0.48734	 2919.12	 2065.01	 0	 0	 0	 0	 0	 0	 57.80	 105.67	 105.67	 49.16	 2811.67	 13.278	 126.337	 42.0388	 0.072725	 	 	 	 No	
+ 3377.2	 3377.2	 0	 0.54137	 2926.78	 1909.67	 0	 0	 0	 0	 0	 0	 57.80	 108.12	 108.12	 58.66	 2809.73	 14.756	 126.363	 46.7098	 0.081879	 	 	 	 No	
+ 3714.3	 3714.3	 0	 0.5954	 2940.06	 1754.33	 0	 0	 0	 0	 0	 0	 57.80	 110.43	 110.43	 68.70	 2812.83	 16.211	 126.292	 51.3429	 0.091399	 	 	 	 No	
+ 4051.4	 4051.4	 0	 0.64944	 2956.40	 1599.00	 0	 0	 0	 0	 0	 0	 57.80	 112.62	 112.62	 79.16	 2818.57	 17.648	 126.171	 55.9485	 0.10153	 	 	 	 No	
+ 4388.5	 4388.5	 0	 0.70347	 2973.70	 1443.66	 0	 0	 0	 0	 0	 0	 57.80	 114.68	 114.68	 89.86	 2825.03	 19.068	 126.011	 60.5267	 0.11215	 	 	 	 No	
+ 4725.6	 4725.6	 0	 0.75751	 2982.98	 1288.32	 0	 0	 0	 0	 0	 0	 57.80	 116.63	 116.63	 101.24	 2822.77	 20.468	 125.815	 65.0746	 0.12338	 	 	 	 No	
+ 5062.6	 5062.6	 0	 0.81154	 3000.97	 1132.92	 0	 0	 0	 0	 0	 0	 57.80	 118.46	 118.46	 111.94	 2829.89	 21.849	 125.586	 69.5895	 0.13534	 	 	 	 No	
+ 5399.7	 5399.7	 0	 0.86558	 3012.47	 964.99	 0	 0	 0	 0	 0	 0	 57.80	 120.18	 120.18	 124.15	 2828.99	 23.207	 125.326	 74.0693	 0.14779	 	 	 	 No	
+ 5736.8	 5736.8	 0	 0.91961	 3032.65	 766.58	 0	 0	 0	 0	 0	 0	 57.80	 121.81	 121.81	 135.88	 2837.25	 24.543	 125.038	 78.5123	 0.16073	 	 	 	 No	
+ 6073.9	 6073.9	 0	 0.97364	 3045.65	 510.48	 0	 0	 0	 0	 0	 0	 57.80	 123.34	 123.34	 149.05	 2836.87	 25.854	 124.724	 82.9169	 0.1744	 	 	 	 No	
+ 6411.0	 6411.0	 0	 1.028	 3067.71	 20.81	 0	 0	 0	 0	 0	 0	 57.80	 124.79	 124.79	 162.11	 2845.66	 27.142	 124.386	 87.2814	 0.18856	 	 	 	 No	
+
+                              ....................
+                              .  Solution Point  .
+                              ....................
+
+Liquid Rate	276.6	(STB/day)
+Oil Rate	276.6	(STB/day)
+Water Rate	0	(STB/day)
+Gas Rate	0.044335	(MMscf/day)
+Solution Node Pressure	3338.54	(psig)
+dP Friction	0.87379	(psi)
+dP Gravity	3279.86	(psi)
+dP Total Skin	0	(psi)
+dP Perforation	0	(psi)
+dP Damage	0	(psi)
+dP Completion	0	(psi)
+Completion Skin	0	
+Total Skin	0	
+Wellhead Liquid Density	55.820	(lb/ft3)
+Wellhead Gas Density	0.24201	(lb/ft3)
+Wellhead Liquid Viscosity	30.6821	(centipoise)
+Wellhead Gas Viscosity	0.011116	(centipoise)
+Wellhead Superficial Liquid Velocity	0.2117	(ft/sec)
+Wellhead Superficial Gas Velocity	1.205	(ft/sec)
+Wellhead Z Factor	0.98759	
+Wellhead Interfacial Tension	19.4184	(dyne/cm)
+Wellhead Pressure	57.80	(psig)
+Wellhead Temperature	82.42	(deg F)
+First Node Liquid Density	55.820	(lb/ft3)
+First Node Gas Density	0.24201	(lb/ft3)
+First Node Liquid Viscosity	30.6821	(centipoise)
+First Node Gas Viscosity	0.011116	(centipoise)
+First Node Superficial Liquid Velocity	0.2117	(ft/sec)
+First Node Superficial Gas Velocity	1.205	(ft/sec)
+First Node Z Factor	0.98759	
+First Node Interfacial Tension	19.4184	(dyne/cm)
+First Node Pressure	57.80	(psig)
+First Node Temperature	82.42	(deg F)
+
+                  ###########################################
+                  #  SYSTEM SENSITIVITY ANALYSIS - Results  #
+                  ###########################################
+
+
+
+
+
+                              ....................
+                              .  Solution Point  .
+                              ....................
+
+Liquid Rate	276.6	(STB/day)
+Oil Rate	276.6	(STB/day)
+Water Rate	0	(STB/day)
+Gas Rate	0.044335	(MMscf/day)
+Solution Node Pressure	3338.54	(psig)
+dP Friction	0.87379	(psi)
+dP Gravity	3279.86	(psi)
+dP Total Skin	0	(psi)
+dP Perforation	0	(psi)
+dP Damage	0	(psi)
+dP Completion	0	(psi)
+Completion Skin	0	
+Total Skin	0	
+Wellhead Liquid Density	55.820	(lb/ft3)
+Wellhead Gas Density	0.24201	(lb/ft3)
+Wellhead Liquid Viscosity	30.6821	(centipoise)
+Wellhead Gas Viscosity	0.011116	(centipoise)
+Wellhead Superficial Liquid Velocity	0.2117	(ft/sec)
+Wellhead Superficial Gas Velocity	1.205	(ft/sec)
+Wellhead Z Factor	0.98759	
+Wellhead Interfacial Tension	19.4184	(dyne/cm)
+Wellhead Pressure	57.80	(psig)
+Wellhead Temperature	82.42	(deg F)
+First Node Liquid Density	55.820	(lb/ft3)
+First Node Gas Density	0.24201	(lb/ft3)
+First Node Liquid Viscosity	30.6821	(centipoise)
+First Node Gas Viscosity	0.011116	(centipoise)
+First Node Superficial Liquid Velocity	0.2117	(ft/sec)
+First Node Superficial Gas Velocity	1.205	(ft/sec)
+First Node Z Factor	0.98759	
+First Node Interfacial Tension	19.4184	(dyne/cm)
+First Node Pressure	57.80	(psig)
+First Node Temperature	82.42	(deg F)
